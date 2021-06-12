@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Video Base: https://www.youtube.com/watch?v=oeW7u1qdXQg&ab_channel=SabCode -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dia dos Namorados</title>
+    <link rel="stylesheet" href="css/letter.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="scripts/letter.js"></script>
+</head>
+<body>
+    <div class="envelope-wrapper">
+        <div id="envelope" class="close">
+            <div class="front flap"></div>
+            <div class="front pocket"></div>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <div class="letter">
+                        <div class="words line1"></div>
+                        <div class="words line2"></div>
+                        <div class="words line3"></div>
+                        <div class="words line4"></div>
+                </div>
+            </a>
+            <div class="hearts">
+                <div class="heart a1"></div>
+                <div class="heart a2"></div>
+                <div class="heart a3"></div>
+            </div>
+        </div>
+    </div>
+    <div class="reset">
+        <button id="open">Open</button>
+        <button id="reset">Reset</button>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="letter-content modal-content">
+            <div class="letter-card-title letter-principal-title"><h4>Para meu Amor Fukamizu</h4></div>
+            <div class="modal-body">
+                <div class="letter-border row justify-content-center align-items-center">
+                    <div class="letter-content-card row">
+                        <div class="letter-card-title col-md-12"><h4>Dia do Anime Friends</h4></div>
+                        <div class="col-md-4"><img src="img/IMG-20190715-WA0013.jpg" width="120" height="160" alt=""></div>
+                        <div class="col-md-8">
+                            <p>Estou tão feliz de ter te conhecido, não tem foto que representa melhordo que uma de nos dois juntos noAnime Friends</p>
+                        </div>
+                    </div>
+                    <div class="letter-content-card row">
+                        <div class="letter-card-title col-md-12"><h4>Dia de Sukiya</h4></div>
+                        <div class="col-md-8">
+                            <p>A proxima foto selecionada foi a do Sukiya, acho que foi uma experiência muito boa. Foi onde eu pude te conhecer melhor</p>
+                        </div>
+                        <div class="col-md-4"><img src="img/IMG-20190407-WA0023.jpg" width="120" height="160" alt=""></div>
+                    </div>
+                    <div class="letter-content-card row">
+                        <div class="letter-card-title col-md-12"><h4>Dia dos Namorados</h4></div>
+                        <div class="col-md-4"><img src="img/IMG-20190616-WA0007.jpg" width="120" height="160" alt=""></div>
+                        <div class="col-md-8">
+                            <p>A ultima é de um dia dos namorados que nos divertimos muito, adorei o piquinique e os presentes foram fofinhos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
